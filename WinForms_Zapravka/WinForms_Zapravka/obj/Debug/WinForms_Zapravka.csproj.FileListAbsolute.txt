@@ -1,0 +1,9 @@
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\bin\Debug\WinForms_Zapravka.exe.config
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\bin\Debug\WinForms_Zapravka.exe
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\bin\Debug\WinForms_Zapravka.pdb
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.csprojResolveAssemblyReference.cache
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.Form1.resources
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.Properties.Resources.resources
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.csproj.GenerateResource.Cache
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.exe
+D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.pdb
