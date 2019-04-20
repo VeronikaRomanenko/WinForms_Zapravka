@@ -7,3 +7,12 @@ D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinFo
 D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.csproj.GenerateResource.Cache
 D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.exe
 D:\Романенко Вероника\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.pdb
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\bin\Debug\WinForms_Zapravka.exe.config
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.exe
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.pdb
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\bin\Debug\WinForms_Zapravka.exe
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\bin\Debug\WinForms_Zapravka.pdb
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.csprojResolveAssemblyReference.cache
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.Form1.resources
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.Properties.Resources.resources
+D:\Backup\Вероника\Документы\ШАГ\Домашние задания\Выполненые\WinForms\WinForms_Zapravka\WinForms_Zapravka\WinForms_Zapravka\obj\Debug\WinForms_Zapravka.csproj.GenerateResource.Cache
