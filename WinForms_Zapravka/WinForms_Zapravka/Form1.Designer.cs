@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.grbAvtozapravka = new System.Windows.Forms.GroupBox();
             this.lblGrn = new System.Windows.Forms.Label();
             this.lblL = new System.Windows.Forms.Label();
@@ -65,12 +66,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.lblKOplate_Vsego = new System.Windows.Forms.Label();
             this.btnPoschitat = new System.Windows.Forms.Button();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.grbVirutschZaDen = new System.Windows.Forms.GroupBox();
+            this.lblVsegoZaDen = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.grbAvtozapravka.SuspendLayout();
             this.grbKolSumm.SuspendLayout();
             this.grbKOplate_Avtozapr.SuspendLayout();
             this.grbMiniKafe.SuspendLayout();
             this.grbKOplate_MiniKafe.SuspendLayout();
             this.grbKOplate_Vsego.SuspendLayout();
+            this.grbVirutschZaDen.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbAvtozapravka
@@ -453,11 +459,47 @@
             this.btnPoschitat.UseVisualStyleBackColor = true;
             this.btnPoschitat.Click += new System.EventHandler(this.btnPoschitat_Click);
             // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // grbVirutschZaDen
+            // 
+            this.grbVirutschZaDen.Controls.Add(this.label2);
+            this.grbVirutschZaDen.Controls.Add(this.lblVsegoZaDen);
+            this.grbVirutschZaDen.Location = new System.Drawing.Point(136, 443);
+            this.grbVirutschZaDen.Name = "grbVirutschZaDen";
+            this.grbVirutschZaDen.Size = new System.Drawing.Size(264, 65);
+            this.grbVirutschZaDen.TabIndex = 3;
+            this.grbVirutschZaDen.TabStop = false;
+            this.grbVirutschZaDen.Text = "Выручка за день";
+            // 
+            // lblVsegoZaDen
+            // 
+            this.lblVsegoZaDen.AutoSize = true;
+            this.lblVsegoZaDen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblVsegoZaDen.Location = new System.Drawing.Point(114, 16);
+            this.lblVsegoZaDen.Name = "lblVsegoZaDen";
+            this.lblVsegoZaDen.Size = new System.Drawing.Size(67, 31);
+            this.lblVsegoZaDen.TabIndex = 13;
+            this.lblVsegoZaDen.Text = "0,00";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(198, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "грн.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(547, 435);
+            this.ClientSize = new System.Drawing.Size(547, 535);
+            this.Controls.Add(this.grbVirutschZaDen);
             this.Controls.Add(this.grbKOplate_Vsego);
             this.Controls.Add(this.grbMiniKafe);
             this.Controls.Add(this.grbAvtozapravka);
@@ -475,6 +517,8 @@
             this.grbKOplate_MiniKafe.PerformLayout();
             this.grbKOplate_Vsego.ResumeLayout(false);
             this.grbKOplate_Vsego.PerformLayout();
+            this.grbVirutschZaDen.ResumeLayout(false);
+            this.grbVirutschZaDen.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -518,6 +562,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblKOplate_Vsego;
         private System.Windows.Forms.Button btnPoschitat;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.GroupBox grbVirutschZaDen;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblVsegoZaDen;
     }
 }
 

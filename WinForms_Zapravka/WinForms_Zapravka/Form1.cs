@@ -12,7 +12,8 @@ namespace WinForms_Zapravka
 {
     public partial class Form1 : Form
     {
-        private int[] zena; 
+        private int[] zena;
+        private int i;
         public Form1()
         {
             InitializeComponent();
@@ -154,6 +155,7 @@ namespace WinForms_Zapravka
 
         private void btnPoschitat_Click(object sender, EventArgs e)
         {
+            i = 0;
             double summ = double.Parse(lblKOplate_MiniKafe.Text);
             if (lblGrnIliLitri.Text == "грн.")
             {
@@ -164,6 +166,41 @@ namespace WinForms_Zapravka
                 summ += int.Parse(txbGrn.Text);
             }
             lblKOplate_Vsego.Text = summ.ToString();
+            timer.Start();
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            i++;
+            if (i == 10)
+            {
+                DialogResult res = MessageBox.Show("Очистить форму?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (res == DialogResult.Yes)
+                {
+                    timer.Stop();
+                    double VsegoZaDen = double.Parse(lblVsegoZaDen.Text) + double.Parse(lblKOplate_Vsego.Text);
+                    cmbBenzin.SelectedIndex = 0;
+                    rdbSumm.Checked = false;
+                    rdbKol.Checked = false;
+                    txbLitri.Enabled = false;
+                    txbLitri.Text = "";
+                    txbGrn.Enabled = false;
+                    txbGrn.Text = "";
+                    chbChotDog.Checked = false;
+                    chbGamburger.Checked = false;
+                    chbFri.Checked = false;
+                    chbKola.Checked = false;
+                    lblKOplate_Avtozapr.Text = "0,00";
+                    lblKOplate_MiniKafe.Text = "0,00";
+                    lblKOplate_Vsego.Text = "0,00";
+                    lblGrnIliLitri.Text = "грн.";                   
+                    lblVsegoZaDen.Text = VsegoZaDen.ToString();
+                }
+                else
+                {
+                    i = 0;
+                }
+            }
         }
     }
 }
